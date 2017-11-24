@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/imageCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/marqueCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Marque"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/referenceCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Réference"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/stockCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
